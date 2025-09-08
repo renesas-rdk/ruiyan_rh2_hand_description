@@ -8,11 +8,11 @@
     <joint name="${prefix}hand_connection_joint" type="fixed">
       <xacro:insert_block name="origin" />
       <parent link="${parent}"/>
-      <child link="${prefix}base_link"/>
+      <child link="${prefix}hand_base_link"/>
     </joint>
 
     <!-- Base link -->
-    <link name="${prefix}base_link">
+    <link name="${prefix}hand_base_link">
       <inertial>
         <origin xyz="-0.00261509912067082 -0.00202384901005411 0.0609899196930254" rpy="0 0 0"/>
         <mass value="0.144625530976132"/>
@@ -63,7 +63,7 @@
 
     <joint name="${prefix}thumb_proximal_yaw_joint" type="revolute">
       <origin xyz="0.0135 -0.022 0.0398" rpy="0 0 1.5708"/>
-      <parent link="${prefix}base_link"/>
+      <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}fz11_Link"/>
       <axis xyz="0 0 1"/>
       <limit lower="0" upper="2.356" effort="1" velocity="0.5"/>
@@ -196,7 +196,7 @@
 
     <joint name="${prefix}index_proximal_joint" type="revolute">
       <origin xyz="-0.0035 -0.029833 0.11095" rpy="3.1416 1.4923 1.5708"/>
-      <parent link="${prefix}base_link"/>
+      <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}fz21_Link"/>
       <axis xyz="0 0 -1"/>
       <limit lower="0" upper="1.518" effort="1" velocity="0.5"/>
@@ -296,7 +296,7 @@
 
     <joint name="${prefix}middle_proximal_joint" type="revolute">
       <origin xyz="-0.0035 -0.009945 0.112" rpy="3.1416 1.5446 1.5708"/>
-      <parent link="${prefix}base_link"/>
+      <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}fz31_Link"/>
       <axis xyz="0 0 -1"/>
       <limit lower="0" upper="1.571" effort="1" velocity="0.5"/>
@@ -396,7 +396,7 @@
 
     <joint name="${prefix}ring_proximal_joint" type="revolute">
       <origin xyz="-0.0035 0.009945 0.11099" rpy="0 1.5446 -1.5708"/>
-      <parent link="${prefix}base_link"/>
+      <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}fz41_Link"/>
       <axis xyz="0 0 -1"/>
       <limit lower="0" upper="1.571" effort="1" velocity="0.5"/>
@@ -496,7 +496,7 @@
 
     <joint name="${prefix}pinky_proximal_joint" type="revolute">
       <origin xyz="-0.0035 0.029624 0.10795" rpy="0 1.4923 -1.5708"/>
-      <parent link="${prefix}base_link"/>
+      <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}fz51_Link"/>
       <axis xyz="0 0 -1"/>
       <limit lower="0" upper="1.545" effort="1" velocity="0.5"/>
