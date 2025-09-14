@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/base_link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/base_link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz11_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz11_Link.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz11_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz11_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz12_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz12_Link.STL" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz12_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz12_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -182,7 +182,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz13_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz13_Link.STL" />
       </geometry>
       <material
         name="">
@@ -196,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz13_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz13_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -244,7 +244,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz14_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz14_Link.STL" />
       </geometry>
       <material
         name="">
@@ -258,7 +258,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz14_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz14_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -302,7 +302,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz21_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz21_Link.STL" />
       </geometry>
       <material
         name="">
@@ -316,7 +316,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz21_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz21_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -360,7 +360,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz22_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz22_Link.STL" />
       </geometry>
       <material
         name="">
@@ -374,7 +374,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz22_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz22_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -422,7 +422,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz23_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz23_Link.STL" />
       </geometry>
       <material
         name="">
@@ -436,7 +436,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz23_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz23_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -480,7 +480,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz31_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz31_Link.STL" />
       </geometry>
       <material
         name="">
@@ -494,7 +494,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz31_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz31_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -538,7 +538,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz32_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz32_Link.STL" />
       </geometry>
       <material
         name="">
@@ -552,7 +552,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz32_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz32_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -600,7 +600,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz33_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz33_Link.STL" />
       </geometry>
       <material
         name="">
@@ -614,7 +614,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz33_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz33_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -658,7 +658,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz41_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz41_Link.STL" />
       </geometry>
       <material
         name="">
@@ -672,7 +672,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz41_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz41_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -716,7 +716,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz42_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz42_Link.STL" />
       </geometry>
       <material
         name="">
@@ -730,7 +730,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz42_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz42_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -778,7 +778,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz43_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz43_Link.STL" />
       </geometry>
       <material
         name="">
@@ -792,7 +792,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz43_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz43_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -836,7 +836,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz51_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz51_Link.STL" />
       </geometry>
       <material
         name="">
@@ -850,7 +850,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz51_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz51_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -894,7 +894,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz52_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz52_Link.STL" />
       </geometry>
       <material
         name="">
@@ -908,7 +908,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz52_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz52_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -956,7 +956,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz53_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz53_Link.STL" />
       </geometry>
       <material
         name="">
@@ -970,7 +970,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ruiyan_rh2_hand_description/urdf/meshes/ruihand6z/fz53_Link.STL" />
+          filename="package://ruiyan_rh2_hand_description/meshes/ruihand6z/fz53_Link.STL" />
       </geometry>
     </collision>
   </link>
