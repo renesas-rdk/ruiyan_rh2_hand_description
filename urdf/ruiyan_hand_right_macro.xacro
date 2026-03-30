@@ -161,12 +161,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fy14" type="revolute">
+    <joint name="${prefix}fy14" type="fixed">
       <origin xyz="0.036284 0.0268 0" rpy="-0.36834 1.5708 0"/>
       <parent link="${prefix}fy13_Link"/>
       <child link="${prefix}fy14_Link"/>
       <axis xyz="0 0 1"/>
-      <limit lower="0" upper="0" effort="1" velocity="0.5"/>
     </joint>
 
     <!-- Index finger proximal -->
@@ -261,12 +260,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fy23" type="revolute">
+    <joint name="${prefix}fy23" type="fixed">
       <origin xyz="0.043692 -0.011217 0" rpy="-1.5708 1.5695 -1.5543"/>
       <parent link="${prefix}fy22_Link"/>
       <child link="${prefix}fy23_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="0.5"/>
     </joint>
 
     <!-- Middle finger proximal -->
@@ -361,12 +359,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fy33" type="revolute">
+    <joint name="${prefix}fy33" type="fixed">
       <origin xyz="0.043641 -0.01141 0" rpy="-1.5708 1.5705 -1.5587"/>
       <parent link="${prefix}fy32_Link"/>
       <child link="${prefix}fy33_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="0.5"/>
     </joint>
 
     <!-- Ring finger proximal -->
@@ -461,12 +458,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fy43" type="revolute">
+    <joint name="${prefix}fy43" type="fixed">
       <origin xyz="0.043692 -0.011217 0" rpy="1.5708 1.5704 1.5873"/>
       <parent link="${prefix}fy42_Link"/>
       <child link="${prefix}fy43_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="0.5"/>
     </joint>
 
     <!-- Pinky finger proximal -->
@@ -561,12 +557,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fy53" type="revolute">
+    <joint name="${prefix}fy53" type="fixed">
       <origin xyz="0.043691 -0.011217 0" rpy="1.5708 1.5695 1.5873"/>
       <parent link="${prefix}fy52_Link"/>
       <child link="${prefix}fy53_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="0.5"/>
     </joint>
 
     <!-- Three-finger grasp TCP -->

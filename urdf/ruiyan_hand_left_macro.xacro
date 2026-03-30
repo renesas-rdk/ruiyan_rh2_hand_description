@@ -161,12 +161,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fz14" type="revolute">
+    <joint name="${prefix}fz14" type="fixed">
       <origin xyz="-0.036284 0.0268 0" rpy="-0.3665 -1.5708 0"/>
       <parent link="${prefix}fz13_Link"/>
       <child link="${prefix}fz14_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="3.0"/>
     </joint>
 
     <!-- Index finger proximal -->
@@ -261,12 +260,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fz23" type="revolute">
+    <joint name="${prefix}fz23" type="fixed">
       <origin xyz="-0.043692 0.011217 0" rpy="1.5708 1.5695 -1.5543"/>
       <parent link="${prefix}fz22_Link"/>
       <child link="${prefix}fz23_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="3.0"/>
     </joint>
 
     <!-- Middle finger proximal -->
@@ -361,12 +359,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fz33" type="revolute">
+    <joint name="${prefix}fz33" type="fixed">
       <origin xyz="-0.043641 0.01141 0" rpy="1.5708 1.5705 -1.5587"/>
       <parent link="${prefix}fz32_Link"/>
       <child link="${prefix}fz33_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="3.0"/>
     </joint>
 
     <!-- Ring finger proximal -->
@@ -461,12 +458,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fz43" type="revolute">
+    <joint name="${prefix}fz43" type="fixed">
       <origin xyz="-0.043692 0.011217 0" rpy="-1.5708 1.5704 1.5873"/>
       <parent link="${prefix}fz42_Link"/>
       <child link="${prefix}fz43_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="3.0"/>
     </joint>
 
     <!-- Pinky finger proximal -->
@@ -561,12 +557,11 @@
       </collision>
     </link>
 
-    <joint name="${prefix}fz53" type="revolute">
+    <joint name="${prefix}fz53" type="fixed">
       <origin xyz="-0.043691 0.011217 0" rpy="-1.5708 1.5695 1.5873"/>
       <parent link="${prefix}fz52_Link"/>
       <child link="${prefix}fz53_Link"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0" effort="1" velocity="0"/>
     </joint>
 
     <!-- Three-finger grasp TCP -->
